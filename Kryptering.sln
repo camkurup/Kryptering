@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kryptering", "Kryptering\Kr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{93DFE344-86FE-44B2-9DCC-E5045CA1E14E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SymetriskKryptering", "SymetriskKryptering\SymetriskKryptering.csproj", "{D2DAE016-7D4E-4235-A2C6-ACBDEFF95E20}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{93DFE344-86FE-44B2-9DCC-E5045CA1E14E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93DFE344-86FE-44B2-9DCC-E5045CA1E14E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93DFE344-86FE-44B2-9DCC-E5045CA1E14E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2DAE016-7D4E-4235-A2C6-ACBDEFF95E20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2DAE016-7D4E-4235-A2C6-ACBDEFF95E20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2DAE016-7D4E-4235-A2C6-ACBDEFF95E20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2DAE016-7D4E-4235-A2C6-ACBDEFF95E20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
