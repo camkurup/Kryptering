@@ -12,6 +12,7 @@ namespace AsyncronicCryptation
         public void RSA()
         {
             RSACryptoServiceProvider myRSA = new RSACryptoServiceProvider();
+            //Is obsolete
             AesManaged myAES = new AesManaged();
             byte[] RSAciphertext;
             byte[] plaintext;
@@ -22,6 +23,7 @@ namespace AsyncronicCryptation
             //decrypt and recover the AES key
             plaintext = myRSA.Decrypt(myAES.Key, true);
 
+            //is obsolete
             SHA256Managed myHash = new SHA256Managed();
             string someText = "This is some text that are hardecoded";
             //sign the message

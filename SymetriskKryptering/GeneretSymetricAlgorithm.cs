@@ -12,6 +12,8 @@ namespace SymetriskKryptering
         SymmetricAlgorithm mySymetricAlg;
         public void Generate(string cipher)
         {
+            //creating algorithms for symetrikcryptation
+            //Rijndael is obsolete
             switch (cipher)
             {
                 case "DES":
@@ -29,6 +31,7 @@ namespace SymetriskKryptering
         }
         public byte[] Encrypt(byte[] mess, byte[] key, byte[] iv)
         {
+            //takes the generated key and iv from the generater methode
             mySymetricAlg.Key = key;
             mySymetricAlg.IV = iv;
             MemoryStream ms = new MemoryStream();
