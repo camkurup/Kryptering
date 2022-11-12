@@ -9,7 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SymetriskKryptering", "SymetriskKryptering\SymetriskKryptering.csproj", "{D2DAE016-7D4E-4235-A2C6-ACBDEFF95E20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncronicCryptation", "AsyncronicCryptation\AsyncronicCryptation.csproj", "{72782C11-35CE-4EC7-9549-34D9F84A6A95}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsymetriskKryptering", "AsyncronicCryptation\AsymetriskKryptering.csproj", "{72782C11-35CE-4EC7-9549-34D9F84A6A95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurePassword", "SecurePassword\SecurePassword.csproj", "{628D962E-A25F-418F-A4F1-CF2B67C82E94}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{72782C11-35CE-4EC7-9549-34D9F84A6A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72782C11-35CE-4EC7-9549-34D9F84A6A95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72782C11-35CE-4EC7-9549-34D9F84A6A95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{628D962E-A25F-418F-A4F1-CF2B67C82E94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{628D962E-A25F-418F-A4F1-CF2B67C82E94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{628D962E-A25F-418F-A4F1-CF2B67C82E94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{628D962E-A25F-418F-A4F1-CF2B67C82E94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
